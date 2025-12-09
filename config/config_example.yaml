@@ -1,0 +1,14 @@
+# Example Config File
+
+# Protected Containers
+
+protected-containers: ["Caddy", "NTFY"] # List of containers (As printed by Docker ps) that cannot be affected by SOHL
+
+# User configuration
+
+users:
+  - name: Wife # Username
+    icon: "👸" # The icon associated with their username
+    level: 1 # Access level (To alter the simplicity of the interface/functionality)
+    pet-names: ["honey", "baby"] # List of pet names to get randomized
+    theme: cute-pink # Their specific dashboard theme that applies after they pick their username
