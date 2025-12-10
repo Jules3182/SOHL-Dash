@@ -1,0 +1,37 @@
+/* Main CSS for formatting */
+
+/* Set up everything to work with themes */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Page set up */
+
+/* Landing */
+.user-box {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: var(--border-color);
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.user-box a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.user-box:hover {
+    cursor: pointer;
+}
+
+.user-emoji {
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

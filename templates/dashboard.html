@@ -1,0 +1,21 @@
+<!-- Main dashboard template -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- The main css file for scaling and formatting -->
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    <!-- Stylesheets changing based on user -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='/themes/' + theme + '.css') }}">   
+
+</head>
+<body>
+    
+    <h2>Welcome, {{ name|capitalize }}! What can I help you with today?</h2>
+    
+</body>
+</html>

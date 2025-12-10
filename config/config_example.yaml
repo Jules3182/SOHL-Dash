@@ -1,4 +1,7 @@
-# Example Config File
+# Example Config File showing various uses of the config
+
+# Host Port
+port: 3000
 
 # Protected Containers
 
@@ -7,8 +10,15 @@ protected-containers: ["Caddy", "NTFY"] # List of containers (As printed by Dock
 # User configuration
 
 users:
-  - name: Wife # Username
+  wife: #Username
+    name: Wife # name
     icon: "👸" # The icon associated with their username
-    level: 1 # Access level (To alter the simplicity of the interface/functionality)
-    pet-names: ["honey", "baby"] # List of pet names to get randomized
-    theme: cute-pink # Their specific dashboard theme that applies after they pick their username
+    level: 2 # Access level (To alter the simplicity of the interface/functionality)
+    pet_names: ["honey", "baby"] # List of pet names to get randomized
+    theme: cute_pink # Their specific dashboard theme that applies after they pick their username
+  kid:
+    name: Kid
+    icon: "⚽️"
+    level: 1
+    pet_names: ["Sport", "Little Homie"]
+    theme: matrix
